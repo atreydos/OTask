@@ -1,0 +1,15 @@
+<network-security-config cleartextTrafficPermitted="true">
+    <debug-overrides cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <!-- Trust user added CAs while debuggable only -->
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">*.*</domain>
+        <domain includeSubdomains="true">*.*.*</domain>
+        <domain includeSubdomains="true">*.*.*.*</domain>
+        <domain includeSubdomains="true">*.*.*.*.*</domain>
+    </domain-config>
+</network-security-config>
