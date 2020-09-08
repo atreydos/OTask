@@ -11,10 +11,10 @@ import io.atreydos.otask.R
 import io.atreydos.otask.domain.entity.TrendDetailed
 import io.atreydos.otask.ui.widget.TrendDetailedText
 import io.atreydos.otask.ui.widget.TrendDetailedWebView
-import kotlinx.android.synthetic.main.tranding_fragment.*
+import kotlinx.android.synthetic.main.trending_fragment.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
-class TrendingFragment : Fragment(R.layout.tranding_fragment) {
+class TrendingFragment : Fragment(R.layout.trending_fragment) {
 
     private val viewModel: TrendingViewModel by viewModel()
 

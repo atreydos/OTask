@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_graph"
-    app:startDestination="@id/trandingFragment">
+    app:startDestination="@id/trendingFragment">
 
     <fragment
-        android:id="@+id/trandingFragment"
+        android:id="@+id/trendingFragment"
         android:name="io.atreydos.otask.ui.trending.TrendingFragment"
-        android:label="tranding_fragment"
-        tools:layout="@layout/tranding_fragment" />
+        android:label="trending_fragment"
+        tools:layout="@layout/trending_fragment" />
 </navigation>
